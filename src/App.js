@@ -4,8 +4,17 @@ import TodoList from "./components/TodoList"
 const App = () => {
   return (
     <div>
-    <h1>Hello World</h1>
-    <TodoList />
+      <TodoList />
+      <input type="text"></input>
+      <button>
+        Add Todo
+      </button>
+      <button>
+        Clear completed
+      </button>
+      <div>
+        0 left to do
+      </div>
     </div>
   )
 }
